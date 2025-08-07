@@ -4,7 +4,7 @@ dotenv.config();
 
 const env = () => {
     return {
-        SERVER_PORT: process.env.SERVER_PORT || '3000',
+        SERVER_PORT: +process.env.SERVER_PORT || 3000,
     }
 }
 
